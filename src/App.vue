@@ -1,4 +1,14 @@
 <template>
-  <h1 class="text-center text-red-500">Simple Activity Tracker</h1>
+  <div class="container mx-auto py-2 px-4">
+    <Section>Simple Activity Tracker</Section>
+  </div>
 </template>
-<script></script>
+<script>
+import Section from "./components/SectionBase.vue";
+
+export default {
+  components: {
+    Section,
+  },
+};
+</script>
